@@ -23,7 +23,7 @@ code {
   border: none;
   cursor: pointer;
   margin: 0vh 0vw 1vh 0vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
 }
 .ButtonDeleteFav{
   background-color: rgba(255, 0, 0, 0.521);
@@ -32,7 +32,7 @@ code {
   border: none;
   cursor: pointer;
   margin: 0vh 0vw 1vh 0vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
 }
 
 h1{
@@ -213,19 +213,19 @@ tr:nth-child(even) {
   flex-direction: column;
   align-items: center;
   margin: 3vh 0vw 0vh 0vw;
-  width: 100vw;
-  height: 100vh;
+  width: 100% ;
+  height: 100%;
  
 }
 .contenedorDentist{
-  width: 40vw;
-  height: 40vh;
+  width: 90%;
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 15vh 0vw 0vh 0vw;
- 
+  
 }
 .imageDentist{
   width: 14vw;
@@ -242,14 +242,14 @@ tr:nth-child(even) {
 
 
 .dentisth2{
-  font-size: 2.1vw;
-  width: 35vw;
-  height: 6vh;
+  font-size: 120%;
+  width:70%;
+  height: 20%;
   margin: 3vh 0vw 0vh 0vw;
   text-align: center;
   align-items: center;
   padding: 0vh 0vw 0vh 0vw;
-  
+ 
 
 }
 .lineaFooter{
@@ -265,35 +265,38 @@ tr:nth-child(even) {
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
   height: 20vh;
  
 }
 .tituloHeader{
-  font-size: 1.5vw;
+  height: 20%;
+  font-size: 100%;
   margin:6vh 0vw 0vh 0vw; 
+ 
 }
 .tituloHeader:hover{
   color: rgb(60, 221, 11);
 } 
 .navegador{
   display: flex;
-  width: 34vw;
+  width: 47vw;
   height: 5vh;
   justify-content:space-around;
   margin: 3vh 0vw 0vh 0vw;
- 
 }
 .linkNavbar{
-  font-size: 1.3vw;
-  width: 6vw;
+  font-size: 100%;
+  align-items: center;
+  text-align: center;
+  width: 30%;
   height: 4vh;
   font-weight: 500;
 }
 .botonTema{
   width: 5vw;
   height: 3vh;
-  margin:2% 0vw 0vh 0vw;
+  margin:1% 0vw 0vh 0vw;
   background-color: white;
   border: none;
   border-radius: 2vw;
@@ -316,6 +319,7 @@ tr:nth-child(even) {
   width: 7vw;
   height: 6vh;
   margin:0vh 0vw 0vh 0vw;
+ 
 }
 .paginaFavoritos{
   height: 100vh;

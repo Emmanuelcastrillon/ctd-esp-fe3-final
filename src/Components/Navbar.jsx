@@ -24,8 +24,8 @@ const Navbar = () => {
       <nav className='navegador'>
           {/* Aqui deberan agregar los liks correspondientes a las rutas definidas */}
           <Link className='linkNavbar' to='/'>Home</Link>
-          <Link className='linkNavbar' to='/Contacto'>Contacto</Link>
-          <Link className='linkNavbar' to='/favoritos'>Destacados</Link>
+          <Link className='linkNavbar' to='/Contacto'>Contact</Link>
+          <Link className='linkNavbar' to='/favoritos'>Favs</Link>
     
            {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
           {state.theme==='dark' ?  <button className='botonTema' onClick={handleOnclick}>☀️</button>: <button className='botonTema' onClick={handleOnclick}>🌜</button>}
