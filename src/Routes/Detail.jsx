@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useContextGlobal } from '../Components/utils/global.context'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
-
+import imagenDent from "../images/doctor.jpg"
 
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
@@ -30,6 +30,7 @@ const Detail = () => {
       <h1 className='tituloDetail'>Detail Dentist Number {state.odontologo.id} </h1>
       {/* aqui deberan renderizar la informacion en detalle de un user en especifico */}
       {/* Deberan mostrar el name - email - phone - website por cada user en especifico */}
+      <img className='imageDetail' src={imagenDent} alt="" />
       <div className='contenedorDentist'>
         <h2 className='dentisth2'>Name: <span>{state.odontologo.name}</span></h2>
         <h2 className='dentisth2'>Email: <span>{state.odontologo.email}</span></h2>

@@ -7,7 +7,7 @@
  const Card = ({odontologo}) => {
 
  const {state,dispatch}=useContextGlobal() 
- const [buttonColor, setButtonColor] = useState('')
+ //const [buttonColor, setButtonColor] = useState('')
  const [isFavorito, setIsFavorito] = useState(false);
 
  useEffect(() => {
@@ -19,7 +19,7 @@
       alert('Se ha agregado a favoritos el odontologo con id: ' + odontologo.id)
    // Aqui iria la logica para agregar la Card en el localStorage
         dispatch({type:'add_favorites',payload:odontologo})
-        setButtonColor('green');
+        //setButtonColor('green');
         setIsFavorito(true)  
   }
 
@@ -50,8 +50,8 @@
          {/* No debes olvidar que la Card a su vez servira como Link hacia la pagina de detalle */}
          {/* Ademas deberan integrar la logica para guardar cada Card en el localStorage */}
           {isFavorito ?  
-          <button onClick={removeFav} style={{background:buttonColor}} className="ButtonDeleteFav">🚮</button> : 
-          <button style={{ backgroundColor: buttonColor }}onClick={addFav} className="favButton">⭐</button>}      
+          <button onClick={removeFav}  className="ButtonDeleteFav">🚮</button> : 
+          <button onClick={addFav} className="favButton">⭐</button>}      
      </div>
    );
  };

@@ -23,6 +23,7 @@ code {
   border: none;
   cursor: pointer;
   margin: 0vh 0vw 1vh 0vw;
+  border-radius: 1vw;
 }
 .ButtonDeleteFav{
   background-color: rgba(255, 0, 0, 0.521);
@@ -31,6 +32,7 @@ code {
   border: none;
   cursor: pointer;
   margin: 0vh 0vw 1vh 0vw;
+  border-radius: 1vw;
 }
 
 h1{
@@ -147,24 +149,19 @@ form{
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  width: 16.5vw;
+  width: 16.5%;
   height: 50vh;
   margin: 0 auto;
   margin-top: 3vh;
-  border: 3px solid rgb(136, 136, 136);
-}
-.card:hover{
-  color: rgb(60, 221, 11);
+  border: 2px solid rgb(136, 136, 136);
+  border-radius: 2vw;
 }
 
 .card:hover{
   border: 0.5px solid rgb(206, 217, 142);
+  color: rgb(60, 221, 11);
 }
-.imageDentist{
-  width: 14vw;
-  height: 30vh;
-  margin:1vh 0vw 0vh 1vw;
-}
+
 .dataDentist{
   font-size: 1.2vw;
 }
@@ -173,8 +170,8 @@ form{
   justify-content:center;
   flex-wrap: wrap;
   /* gap: 1rem; */
-  width: 95vw;
-  height: 100vh;
+  width: 100%;
+ 
   margin: 0 auto;
  
  
@@ -199,6 +196,7 @@ tr:nth-child(even) {
 }
 
 .dark{
+  width: 100vw;
   background-color: #12121296;
   color: white;
 }
@@ -206,28 +204,48 @@ tr:nth-child(even) {
   color: white;
 }
 .tituloHome,.tituloFavs,.tituloDetail{
+  font-size: 170%;
   color: rgb(60, 221, 11);
   
 }
 .dentist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 3vh 0vw 0vh 0vw;
   width: 100vw;
-  height: 40vh;
+  height: 100vh;
  
 }
 .contenedorDentist{
+  width: 40vw;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 4vh 0vw 0vh 0vw;
+  margin: 15vh 0vw 0vh 0vw;
+ 
 }
+.imageDentist{
+  width: 14vw;
+  height: 30vh;
+  margin:1vh 0vw 0vh 0vw;
+  border-radius: 2vw;
+}
+.imageDetail{
+  width: 14vw;
+  height: 30vh;
+  margin:9vh 0vw 0vh 0vw;
+  border-radius: 2vw;
+}
+
 
 .dentisth2{
   font-size: 2.1vw;
   width: 35vw;
   height: 6vh;
-  margin: 6vh 0vw 0vh 2vw;
+  margin: 3vh 0vw 0vh 0vw;
   text-align: center;
   align-items: center;
   padding: 0vh 0vw 0vh 0vw;
@@ -260,7 +278,7 @@ tr:nth-child(even) {
 } 
 .navegador{
   display: flex;
-  width: 28vw;
+  width: 34vw;
   height: 5vh;
   justify-content:space-around;
   margin: 3vh 0vw 0vh 0vw;
@@ -273,12 +291,16 @@ tr:nth-child(even) {
   font-weight: 500;
 }
 .botonTema{
-  width: 7vw;
-  height: 5vh;
-  margin: 0.5vh 0vw 0vh 1vw;
-  background-color: rgba(0, 0, 0, 0.479);
+  width: 5vw;
+  height: 3vh;
+  margin:2% 0vw 0vh 0vw;
+  background-color: white;
   border: none;
   border-radius: 2vw;
+  padding: 0vh 0.5% 0vh 0vw;
+}
+.botonTema:hover{
+  background-color:  rgb(60, 221, 11);
 }
 
 .lineaNavbar{
