@@ -11,7 +11,7 @@ const Home = () => {
   const {state}=useContextGlobal()
 
   return (
-    <main className="" >
+    <main className="principal" >
       <h1 className='tituloHome'>Home Dentist</h1>
       <div className='card-grid'>
         {/* Aqui deberias renderizar las cards */}

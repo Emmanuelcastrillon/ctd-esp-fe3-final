@@ -16,7 +16,7 @@ function App() {
   
   return (
       <div className={state.theme}>
-          <div className="body">
+          <div className="cuerpo">
           <Navbar/>
         
          <Routes>
