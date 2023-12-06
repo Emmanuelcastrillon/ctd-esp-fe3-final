@@ -8,10 +8,11 @@
 }
 .cuerpo {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   margin: 0vh 0vw 0vh 0vw;
 }
 .dark{
+  width: 100vw;
   background-color: #12121296;
   color: white;
 }
@@ -20,7 +21,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  height:25%;
+  height:24vh;
+ 
 }
 
 .tituloHeader{
