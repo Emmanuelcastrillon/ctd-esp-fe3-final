@@ -28,4 +28,3 @@ const Favs = () => {
 export default Favs;
 
 
-//onClick={()=>deleteFavs(favo.id)}

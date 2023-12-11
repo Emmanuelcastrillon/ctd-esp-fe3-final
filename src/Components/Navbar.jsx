@@ -28,9 +28,10 @@ const Navbar = () => {
           <Link className='linkNavbar' to='/favoritos'>Favs</Link>
     
            {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
-          {state.theme==='dark' ?  <button className='botonTema' onClick={handleOnclick}>☀️</button>: <button className='botonTema' onClick={handleOnclick}>🌜</button>}
          
       </nav>
+      {state.theme==='dark' ?  <button className='botonTema' onClick={handleOnclick}>☀️</button>: <button className='botonTema' onClick={handleOnclick}>🌜</button>}
+
       <div className='lineaNavbar'></div>
      
        
