@@ -24,8 +24,9 @@ export const ContextGlobal = createContext();
   useEffect(()=>{
     axios(endPoint)
     .then(res => dispatch({type: 'get_dentists' , payload: res.data},console.log(res.data)))
-    
   },[])
+
+ 
 
   
   return (
