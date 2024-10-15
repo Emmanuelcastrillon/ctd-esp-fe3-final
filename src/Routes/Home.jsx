@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <main className="principal" >
-      <h1 className='tituloHome'>Home Sarita</h1>
+      <h1 className='tituloHome'>Home Emmanuel</h1>
       <div className='card-grid'>
         {/* Aqui deberias renderizar las cards */}
         {state.dentistas.map((dentista)=><Card odontologo={dentista} key={dentista.id}/>)}
